@@ -5,5 +5,8 @@ describe("fullName", function() {
 
   });
 
+  it('should capatalize both names correctly', function () {
+  	expect(fullName("jp", 'whitaker')).toEqual('Jp Whitaker');
+  });
 
 });
